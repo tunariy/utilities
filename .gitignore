@@ -1,0 +1,8 @@
+# Ignore executables
+/bin/
+/build/
+*.out
+*.elf
+
+# Main is used for testing debugging
+main.cpp
