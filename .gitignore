@@ -1,8 +1,8 @@
-# Ignore executables
+# Clang language server related
+.cache
+
+# Executables & build related directoriess
 /bin/
 /build/
 *.out
 *.elf
-
-# Main is used for testing debugging
-main.cpp
