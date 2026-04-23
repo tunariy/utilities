@@ -6,7 +6,7 @@
 #include <mutex>
 #include <queue>
 #include <thread>
-#include <vector>
+
 namespace utilities {
 
 template <std::size_t N>
