@@ -1,7 +1,7 @@
 # Clang language server related
 .cache
 
-# Executables & build related directoriess
+# Executables & build related directories
 /bin/
 /build/
 *.out

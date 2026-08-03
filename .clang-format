@@ -2,16 +2,16 @@
 BasedOnStyle: LLVM
 
 # Indentation
-IndentWidth: 2
-ContinuationIndentWidth: 2
+IndentWidth: 4
+ContinuationIndentWidth: 4
 UseTab: Never
-TabWidth: 2
+TabWidth: 4
 
 # Braces
 BreakBeforeBraces: Attach
 
 # Miscellaneous formatting
-ColumnLimit: 100
+ColumnLimit: 90
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: false
 AlignConsecutiveDeclarations: false
@@ -49,6 +49,12 @@ IndentAccessModifiers: false
 # Includes
 IncludeBlocks: Preserve
 SortIncludes: true
+
+# Templates
+AlwaysBreakTemplateDeclarations: Yes
+
+#namespaces
+NamespaceIndentation: Inner
 
 # Language
 Language: Cpp
